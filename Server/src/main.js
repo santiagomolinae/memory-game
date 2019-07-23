@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var cors = require('cors');
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
@@ -8,6 +9,8 @@ var io = require('socket.io')(server);
 app.get('/', function(req, res){
     res.status(200);
 });
+
+app.use(cors());
 
 io.on('connection', function(socket){
     console.log("Conected with socket");

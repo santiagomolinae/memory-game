@@ -23,8 +23,6 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<script src="socket.io/socket.io.js"></script>
-				<script src="main.js"></script>
 				<Header numberOfTries={this.state.numberOfTries} resetGame={() => this.resetGame()} />
 				<Board
 					deck={this.state.deck}

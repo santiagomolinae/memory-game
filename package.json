@@ -1,38 +1,24 @@
 {
-	"name": "memory-game",
-	"version": "0.1.0",
-	"private": true,
-	"dependencies": {
-		"express": "^4.17.1",
-		"font-awesome": "^4.7.0",
-		"lodash.shuffle": "^4.2.0",
-		"prop-types": "^15.7.2",
-		"react": "^16.8.6",
-		"react-card-flip": "^0.8.0",
-		"react-dom": "^16.8.6",
-		"react-scripts": "3.0.1",
-		"socket.io": "^2.2.0"
-	},
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
-	},
-	"eslintConfig": {
-		"extends": "react-app"
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	},
-	"devDependencies": {}
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "Memory game with Socket.io",
+  "main": "client/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagomolinae/memory-game.git"
+  },
+  "keywords": [
+    "memory",
+    "game",
+    "socket.io"
+  ],
+  "author": "santiagomolinae, AlukardSins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagomolinae/memory-game/issues"
+  },
+  "homepage": "https://github.com/santiagomolinae/memory-game#readme"
 }
